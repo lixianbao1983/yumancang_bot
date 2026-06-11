@@ -1,0 +1,11 @@
+{
+    "position": null,
+    "entry_price": 0,
+    "last_trade_time": null,
+    "daily_trade_count": 0,
+    "equity": 10000,
+    "trading_enabled": true,
+    "running": true,
+    "last_price": 3506.84,
+    "last_signal": "BUY"
+}

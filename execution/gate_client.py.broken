@@ -1,0 +1,13 @@
+def place_order(self, symbol, side, qty, price=None):
+
+    order = {
+        "currency_pair": symbol,
+        "type": "market",
+        "side": side.lower(),
+        "amount": str(qty)
+    }
+
+    # ❗ 市价单不能带 time_in_force（关键修复点）
+
+    result = self.spot_api.create_order(order)
+    return result

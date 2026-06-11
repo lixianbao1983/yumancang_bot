@@ -1,0 +1,93 @@
+class RiskManager:
+    def __init__(self, max_position_size: float = 100.0,
+                 max_daily_trades: int = 20,
+                 max_drawdown: float = -500.0):
+
+        self.enabled = True
+        self.max_position_size = max_position_size
+        self.max_daily_trades = max_daily_trades
+        self.max_drawdown = max_drawdown
+
+    def check_risk(self, symbol, action, volume, tick, tracker, daily_trade_count):
+        """
+        多币种风控核心（安全实盘版本）
+        """
+
+        # =========================
+        # 🧨 关键防御：tracker保护
+        # =========================
+        if tracker is None:
+            print(f"❌ [RISK] tracker=None | 跳过风控: {symbol}")
+            return False
+
+        if not self.enabled:
+            return False
+
+        # =========================
+        # 1. 交易频率限制
+        # =========================
+        if daily_trade_count >= self.max_daily_trades:
+            print(f"❌ [RISK] {symbol} 超过日内交易限制")
+            return False
+
+        # =========================
+        # 2. PnL 风控
+        # =========================
+        try:
+            current_pnl = tracker.get_pnl(symbol)
+        except Exception as e:
+            print(f"❌ [RISK] PnL读取失败: {e}")
+            return False
+
+        if current_pnl <= self.max_drawdown:
+            print(f"❌ [RISK] {symbol} 触发最大回撤风控")
+            return False
+
+        # =========================
+        # 3. 仓位限制
+        # =========================
+        try:
+            if action.upper() == "BUY":
+                expected_position = tracker.get_quantity(symbol) + volume
+
+                if expected_position > self.max_position_size:
+                    print(f"❌ [RISK] {symbol} 超过仓位限制")
+                    return False
+        except Exception as e:
+            print(f"❌ [RISK] 仓位检查失败: {e}")
+            return False
+
+        # =========================
+        # 通过
+        # =========================
+        print(f"✅ [RISK] {symbol} 通过风控")
+        return Trueclass RiskManager:
+    def __init__(self, max_position_size: float = 100.0, max_daily_trades: int = 20, max_drawdown: float = -500.0):
+        self.enabled = True
+        self.max_position_size = max_position_size
+        self.max_daily_trades = max_daily_trades
+        self.max_drawdown = max_drawdown
+
+    def check_risk(self, symbol, action, volume, tick, tracker, daily_trade_count):
+        """
+        多币种多维风控检查（彻底移除引起类型混淆的声明）
+        """
+        if not self.enabled: return False
+        
+        if daily_trade_count >= self.max_daily_trades:
+            print(f"❌ [RISK] {symbol} 拒绝交易：已达日内频次上限")
+            return False
+            
+        current_pnl = tracker.get_pnl(symbol)
+        if current_pnl <= self.max_drawdown:
+            print(f"❌ [RISK] {symbol} 拒绝交易：触发单币风控熔断线")
+            return False
+            
+        if action.upper() == "BUY":
+            expected_position = tracker.get_quantity(symbol) + volume
+            if expected_position > self.max_position_size:
+                print(f"❌ [RISK] {symbol} 拒绝交易：加仓后超总仓位限制")
+                return False
+                
+        print(f"✅ [RISK] {symbol} 风控通过 (当前持仓: {tracker.get_quantity(symbol)})")
+        return True

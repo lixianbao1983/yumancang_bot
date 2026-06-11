@@ -1,0 +1,11 @@
+{
+    "trading_enabled": true,
+    "last_trade_time": "2026-06-02T07:11:27.418918",
+    "daily_trade_count": 7,
+    "position_qty": 1.0,
+    "position_entry": 100.31,
+    "pos_qty_BTC_USDT": 0.0,
+    "pos_entry_BTC_USDT": 0.0,
+    "pos_qty_SOL_USDT": 5.0,
+    "pos_entry_SOL_USDT": 140.62
+}

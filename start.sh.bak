@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Starting trading bot..."
+
+mkdir -p logs
+mkdir -p trading_bot/data
+
+nohup python3 main.py > logs/system.log 2>&1 &
+
+echo "Bot started."

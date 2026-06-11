@@ -1,0 +1,7 @@
+exchange: gate
+
+strategies:
+  - demo_strategy
+
+risk:
+  max_position: 2

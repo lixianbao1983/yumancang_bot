@@ -1,0 +1,418 @@
+nohup: ignoring input
+🚀 [OpenClaw System Center] Starting Trading Bot V2...
+====== 🤖 AI Autonomous Trading Loop V2 (Halt Gate Ready) ======
+=================== Gate.io Real Broker V2 ===================
+  ▷ [Real Broker] 🔹 No API key, running safely in simulated mock mode.
+================================================================
+[RISK INIT] 成功加载 V2 工业级增强型风控引擎 (RiskEngine) ✅
+=================== 🧠 OpenClaw 4-Brain AI Installed ===================
+  ▶ [我 - 中央调度脑] 状态: 100% 物理常驻安装成功！已接管中央调度总线 ✅
+  ▶ [OpenAI 智囊] 状态: 本地微观本金数据流已对齐 ✅
+  ▶ [Gemini 智囊] 状态: 本地宏观持仓数据流已对齐 ✅
+  ▶ [Claude 智囊] 状态: 本地高频风控数据流已对齐 ✅
+========================================================================
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+🚀 [Risk Passed] Routing to Gate.io Broker...
+🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+🚀 [Risk Passed] Routing to Gate.io Broker...
+🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+🚀 [Risk Passed] Routing to Gate.io Broker...
+🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+🚀 [Risk Passed] Routing to Gate.io Broker...
+🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+🚀 [Risk Passed] Routing to Gate.io Broker...
+🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+🚀 [Risk Passed] Routing to Gate.io Broker...
+🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+🚀 [Risk Passed] Routing to Gate.io Broker...
+🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+
+---------------------------------------------------------
+[System Heartbeat] Checking multi-agent risk state...
+[System Heartbeat] Querying OpenClaw Core Brain for consensus...
+
+🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+4,852 | INFO | 📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+2026-06-02 12:32:54,852 | INFO | 🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+2026-06-02 12:32:54,852 | INFO | 🚀 [Risk Passed] Routing to Gate.io Broker...
+2026-06-02 12:32:54,852 | INFO | 🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+2026-06-02 12:32:54,852 | INFO | 📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+2026-06-02 12:32:59,858 | INFO | ---------------------------------------------------------
+2026-06-02 12:32:59,858 | INFO | [System Heartbeat] Checking multi-agent risk state...
+2026-06-02 12:32:59,858 | INFO | [System Heartbeat] Querying OpenClaw Core Brain for consensus...
+2026-06-02 12:32:59,858 | INFO | 🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+2026-06-02 12:32:59,858 | INFO | 📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+2026-06-02 12:32:59,858 | INFO | 🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+2026-06-02 12:32:59,858 | INFO | 🚀 [Risk Passed] Routing to Gate.io Broker...
+2026-06-02 12:32:59,858 | INFO | 🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+2026-06-02 12:32:59,858 | INFO | 📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+2026-06-02 12:33:04,863 | INFO | ---------------------------------------------------------
+2026-06-02 12:33:04,863 | INFO | [System Heartbeat] Checking multi-agent risk state...
+2026-06-02 12:33:04,863 | INFO | [System Heartbeat] Querying OpenClaw Core Brain for consensus...
+2026-06-02 12:33:04,864 | INFO | 🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+2026-06-02 12:33:04,864 | INFO | 📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+2026-06-02 12:33:04,864 | INFO | 🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+2026-06-02 12:33:04,864 | INFO | 🚀 [Risk Passed] Routing to Gate.io Broker...
+2026-06-02 12:33:04,864 | INFO | 🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+2026-06-02 12:33:04,864 | INFO | 📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+2026-06-02 12:33:09,869 | INFO | ---------------------------------------------------------
+2026-06-02 12:33:09,869 | INFO | [System Heartbeat] Checking multi-agent risk state...
+2026-06-02 12:33:09,869 | INFO | [System Heartbeat] Querying OpenClaw Core Brain for consensus...
+2026-06-02 12:33:09,869 | INFO | 🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+2026-06-02 12:33:09,869 | INFO | 📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+2026-06-02 12:33:09,869 | INFO | 🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+2026-06-02 12:33:09,869 | INFO | 🚀 [Risk Passed] Routing to Gate.io Broker...
+2026-06-02 12:33:09,869 | INFO | 🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+2026-06-02 12:33:09,869 | INFO | 📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+2026-06-02 12:33:14,875 | INFO | ---------------------------------------------------------
+2026-06-02 12:33:14,875 | INFO | [System Heartbeat] Checking multi-agent risk state...
+2026-06-02 12:33:14,875 | INFO | [System Heartbeat] Querying OpenClaw Core Brain for consensus...
+2026-06-02 12:33:14,875 | INFO | 🔄 [中央调度总线] 正在解包本地资产快照，向三大 AI 智囊团指派专项审计任务...
+2026-06-02 12:33:14,875 | INFO | 📋 [中央脑投票看板] OpenAI意见: BUY | Gemini意见: BUY | Claude意见: BUY
+2026-06-02 12:33:14,875 | INFO | 🧠 [AI Brain Output] Action: BUY | Reason: 【四脑多智能体共识买入决议】中央脑通过多数票仲裁。细节: [OpenAI] 本金充裕 ($10000 USD)，资金流处于绝对安全象限。 [Gemini] 实盘当前处于安全空仓期，允许建立初始趋势仓位。 [Claude] 今日交易频次仅 0 次，远低于 5 次限频大闸。
+2026-06-02 12:33:14,875 | INFO | 🚀 [Risk Passed] Routing to Gate.io Broker...
+2026-06-02 12:33:14,875 | INFO | 🔹 [Simulated Trade] No real API key env, skipping real order: BUY 0.0005 BTC/USDT
+2026-06-02 12:33:14,875 | INFO | 📝 [Broker Result]: {'status': 'MOCK_SUCCESS', 'info': 'Offline mock layer executed successfully.'}
+2026-06-02 14:27:34,399 | INFO | Traceback (most recent call last):
+2026-06-02 14:27:34,399 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-02 14:27:34,399 | INFO | from data_fetcher import get_market_data
+2026-06-02 14:27:34,399 | INFO | ImportError
+2026-06-02 14:27:34,399 | INFO | :
+2026-06-02 14:27:34,399 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-02 14:29:54,903 | INFO | Traceback (most recent call last):
+2026-06-02 14:29:54,903 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-02 14:29:54,903 | INFO | from data_fetcher import get_market_data
+2026-06-02 14:29:54,903 | INFO | ImportError
+2026-06-02 14:29:54,903 | INFO | :
+2026-06-02 14:29:54,903 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-02 14:30:07,844 | INFO | Traceback (most recent call last):
+2026-06-02 14:30:07,844 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-02 14:30:07,844 | INFO | from data_fetcher import get_market_data
+2026-06-02 14:30:07,844 | INFO | ImportError
+2026-06-02 14:30:07,844 | INFO | :
+2026-06-02 14:30:07,844 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-03 02:41:49,214 | INFO | Traceback (most recent call last):
+2026-06-03 02:41:49,215 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-03 02:41:49,216 | INFO | from data_fetcher import get_market_data
+2026-06-03 02:41:49,216 | INFO | ImportError
+2026-06-03 02:41:49,216 | INFO | :
+2026-06-03 02:41:49,216 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-04 10:10:34,823 | INFO | Traceback (most recent call last):
+2026-06-04 10:10:34,823 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-04 10:10:34,824 | INFO | from data_fetcher import get_market_data
+2026-06-04 10:10:34,824 | INFO | ImportError
+2026-06-04 10:10:34,824 | INFO | :
+2026-06-04 10:10:34,824 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-04 10:10:44,829 | INFO | Traceback (most recent call last):
+2026-06-04 10:10:44,829 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-04 10:10:44,829 | INFO | from data_fetcher import get_market_data
+2026-06-04 10:10:44,830 | INFO | ImportError
+2026-06-04 10:10:44,830 | INFO | :
+2026-06-04 10:10:44,830 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-04 10:12:38,590 | INFO | Traceback (most recent call last):
+2026-06-04 10:12:38,590 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-04 10:12:38,590 | INFO | from data_fetcher import get_market_data
+2026-06-04 10:12:38,590 | INFO | ImportError
+2026-06-04 10:12:38,590 | INFO | :
+2026-06-04 10:12:38,591 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-05 00:11:13,228 | INFO | Traceback (most recent call last):
+2026-06-05 00:11:13,228 | INFO | File "/home/ec2-user/trading_bot/main.py", line 54, in <module>
+2026-06-05 00:11:13,228 | INFO | from data_fetcher import get_market_data
+2026-06-05 00:11:13,228 | INFO | ImportError
+2026-06-05 00:11:13,228 | INFO | :
+2026-06-05 00:11:13,228 | INFO | cannot import name 'get_market_data' from 'data_fetcher' (/home/ec2-user/trading_bot/data_fetcher.py)
+2026-06-05 00:21:05,125 | INFO | 🚀 [OpenClaw Stable Engine] Started
+2026-06-05 00:21:05,126 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-05 00:21:05,132 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-05 00:21:05,132 | INFO | ================================================================
+2026-06-05 00:21:11,460 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:14,778 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:18,099 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:21,413 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:24,731 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:28,086 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:31,476 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:34,824 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:38,141 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:41,458 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:44,776 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:48,130 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 00:21:51,284 | INFO | Traceback (most recent call last):
+2026-06-05 00:21:51,284 | INFO | File "/home/ec2-user/trading_bot/main.py", line 91, in <module>
+2026-06-05 00:21:51,285 | INFO | main()
+2026-06-05 00:21:51,285 | INFO | File "/home/ec2-user/trading_bot/main.py", line 52, in main
+2026-06-05 00:21:51,285 | INFO | market_data = market_engine.get_market_data()
+2026-06-05 00:21:51,285 | INFO | File "/home/ec2-user/trading_bot/data/gate_market_data.py", line 27, in get_market_data
+2026-06-05 00:21:51,285 | INFO | "BTC/USDT": self.fetch_price("BTC/USDT"),
+2026-06-05 00:21:51,285 | INFO | File "/home/ec2-user/trading_bot/data/gate_market_data.py", line 16, in fetch_price
+2026-06-05 00:21:51,285 | INFO | ticker = self.exchange.fetch_ticker(symbol)
+2026-06-05 00:21:51,285 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/ccxt/gate.py", line 2758, in fetch_ticker
+2026-06-05 00:21:51,286 | INFO | response = self.publicSpotGetTickers(self.extend(request, query))
+2026-06-05 00:21:51,286 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/ccxt/base/types.py", line 35, in unbound_method
+2026-06-05 00:21:51,287 | INFO | return _self.request(self.path, self.api, self.method, params, config=self.config)
+2026-06-05 00:21:51,287 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/ccxt/base/exchange.py", line 5465, in request
+2026-06-05 00:21:51,288 | INFO | return self.fetch2(path, api, method, params, headers, body, config)
+2026-06-05 00:21:51,288 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/ccxt/base/exchange.py", line 5449, in fetch2
+2026-06-05 00:21:51,289 | INFO | return self.fetch(request['url'], request['method'], request['headers'], request['body'])
+2026-06-05 00:21:51,289 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/ccxt/base/exchange.py", line 663, in fetch
+2026-06-05 00:21:51,289 | INFO | response = self.session.request(
+2026-06-05 00:21:51,289 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+2026-06-05 00:21:51,291 | INFO | resp = self.send(prep, **send_kwargs)
+2026-06-05 00:21:51,291 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+2026-06-05 00:21:51,292 | INFO | r = adapter.send(request, **kwargs)
+2026-06-05 00:21:51,292 | INFO | File "/home/ec2-user/.local/lib/python3.9/site-packages/requests/adapters.py", line 644, in send
+2026-06-05 00:21:51,293 | INFO | resp = conn.urlopen(
+2026-06-05 00:21:51,294 | INFO | File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+2026-06-05 00:21:51,295 | INFO | httplib_response = self._make_request(
+2026-06-05 00:21:51,296 | INFO | File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+2026-06-05 00:21:51,296 | INFO | six.raise_from(e, None)
+2026-06-05 00:21:51,296 | INFO | File "<string>", line 3, in raise_from
+2026-06-05 00:21:51,296 | INFO | File "/usr/lib/python3.9/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+2026-06-05 00:21:51,296 | INFO | httplib_response = conn.getresponse()
+2026-06-05 00:21:51,296 | INFO | File "/usr/lib64/python3.9/http/client.py", line 1377, in getresponse
+2026-06-05 00:21:51,299 | INFO | response.begin()
+2026-06-05 00:21:51,299 | INFO | File "/usr/lib64/python3.9/http/client.py", line 320, in begin
+2026-06-05 00:21:51,299 | INFO | version, status, reason = self._read_status()
+2026-06-05 00:21:51,299 | INFO | File "/usr/lib64/python3.9/http/client.py", line 281, in _read_status
+2026-06-05 00:21:51,299 | INFO | line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+2026-06-05 00:21:51,299 | INFO | File "/usr/lib64/python3.9/socket.py", line 716, in readinto
+2026-06-05 00:21:51,301 | INFO | return self._sock.recv_into(b)
+2026-06-05 00:21:51,301 | INFO | File "/usr/lib64/python3.9/ssl.py", line 1277, in recv_into
+2026-06-05 00:21:51,303 | INFO | return self.read(nbytes, buffer)
+2026-06-05 00:21:51,303 | INFO | File "/usr/lib64/python3.9/ssl.py", line 1135, in read
+2026-06-05 00:21:51,304 | INFO | return self._sslobj.read(len, buffer)
+2026-06-05 00:21:51,304 | INFO | KeyboardInterrupt
+2026-06-05 12:09:32,497 | INFO | 🚀 [OpenClaw Stable Engine] Started
+2026-06-05 12:09:32,498 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-05 12:09:32,504 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-05 12:09:32,504 | INFO | ================================================================
+2026-06-05 12:09:39,989 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:09:43,294 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:09:46,624 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:09:49,929 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:09:53,267 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:09:56,570 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:09:59,912 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:03,219 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:06,575 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:09,963 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:13,268 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:16,628 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:19,936 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:23,242 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:26,583 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:29,907 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:33,217 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:36,565 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:39,887 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:43,248 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:46,554 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:49,873 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:53,183 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:56,521 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:10:59,892 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:11:01,539 | INFO | Traceback (most recent call last):
+2026-06-05 12:11:01,540 | INFO | File "/home/ec2-user/trading_bot/main.py", line 58, in main
+2026-06-05 12:11:01,540 | INFO | allowed, reason = risk.check_risk(
+2026-06-05 12:11:01,540 | INFO | File "/home/ec2-user/trading_bot/risk/risk_manager.py", line 18, in check_risk
+2026-06-05 12:11:01,542 | INFO | current_pnl = tracker.get_pnl(symbol)
+2026-06-05 12:11:01,542 | INFO | AttributeError
+2026-06-05 12:11:01,542 | INFO | :
+2026-06-05 12:11:01,543 | INFO | 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 12:11:01,543 | INFO | During handling of the above exception, another exception occurred:
+2026-06-05 12:11:01,543 | INFO | Traceback (most recent call last):
+2026-06-05 12:11:01,545 | INFO | File "/home/ec2-user/trading_bot/main.py", line 91, in <module>
+2026-06-05 12:11:01,549 | INFO | main()
+2026-06-05 12:11:01,550 | INFO | File "/home/ec2-user/trading_bot/main.py", line 88, in main
+2026-06-05 12:11:01,551 | INFO | time.sleep(3)
+2026-06-05 12:11:01,551 | INFO | KeyboardInterrupt
+2026-06-05 14:19:36,822 | INFO | 🚀 [OpenClaw Stable Engine] Started
+2026-06-05 14:19:36,822 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-05 14:19:36,829 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-05 14:19:36,829 | INFO | ================================================================
+2026-06-05 14:19:43,336 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:19:46,651 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:19:50,025 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:19:53,339 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:19:56,649 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:19:59,953 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:03,269 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:06,619 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:09,939 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:13,325 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:16,642 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:19,969 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:23,299 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:26,604 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:29,940 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:33,265 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:36,760 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:40,066 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:43,375 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:46,681 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:49,989 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:53,316 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:56,619 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:20:59,921 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:21:03,263 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:21:06,579 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:21:09,905 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:21:13,294 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:21:16,610 | INFO | ⚠️ LOOP ERROR: 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:21:19,491 | INFO | Traceback (most recent call last):
+2026-06-05 14:21:19,491 | INFO | File "/home/ec2-user/trading_bot/main.py", line 58, in main
+2026-06-05 14:21:19,491 | INFO | allowed, reason = risk.check_risk(
+2026-06-05 14:21:19,491 | INFO | File "/home/ec2-user/trading_bot/risk/risk_manager.py", line 18, in check_risk
+2026-06-05 14:21:19,492 | INFO | current_pnl = tracker.get_pnl(symbol)
+2026-06-05 14:21:19,492 | INFO | AttributeError
+2026-06-05 14:21:19,492 | INFO | :
+2026-06-05 14:21:19,492 | INFO | 'NoneType' object has no attribute 'get_pnl'
+2026-06-05 14:21:19,492 | INFO | During handling of the above exception, another exception occurred:
+2026-06-05 14:21:19,492 | INFO | Traceback (most recent call last):
+2026-06-05 14:21:19,493 | INFO | File "/home/ec2-user/trading_bot/main.py", line 91, in <module>
+2026-06-05 14:21:19,493 | INFO | main()
+2026-06-05 14:21:19,493 | INFO | File "/home/ec2-user/trading_bot/main.py", line 88, in main
+2026-06-05 14:21:19,493 | INFO | time.sleep(3)
+2026-06-05 14:21:19,493 | INFO | KeyboardInterrupt
+2026-06-05 14:22:31,214 | INFO | Traceback (most recent call last):
+2026-06-05 14:22:31,214 | INFO | File "/home/ec2-user/trading_bot/main.py", line 38, in <module>
+2026-06-05 14:22:31,214 | INFO | from risk.risk_manager import RiskManager
+2026-06-05 14:22:31,214 | INFO | File "/home/ec2-user/trading_bot/risk/risk_manager.py", line 64
+2026-06-05 14:22:31,215 | INFO | return Trueclass RiskManager:
+2026-06-05 14:22:31,215 | INFO | ^
+2026-06-05 14:22:31,215 | INFO | SyntaxError
+2026-06-05 14:22:31,215 | INFO | :
+2026-06-05 14:22:31,215 | INFO | invalid syntax
+2026-06-07 07:41:53,812 | INFO | 🚀 [OpenClaw Stable Engine] 安全闭环引擎启动...
+2026-06-07 07:41:53,813 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-07 07:41:53,818 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-07 07:41:53,818 | INFO | ================================================================
+2026-06-07 07:41:53,824 | INFO | 📊 盘前账本同步成功 | 余额: 10000.00 | 净值: 10000.00
+2026-06-07 07:41:59,993 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:05,306 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:10,637 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:15,948 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:21,283 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:26,652 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:32,006 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:37,418 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:42,739 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:48,082 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:53,396 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:42:58,708 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:04,030 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:09,344 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:14,663 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:19,998 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:25,360 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:30,673 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:35,986 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:41,363 | INFO | 💥 LOOP ERROR: '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:42,123 | INFO | Traceback (most recent call last):
+2026-06-07 07:43:42,124 | INFO | File "/home/ec2-user/trading_bot/main.py", line 55, in main
+2026-06-07 07:43:42,124 | INFO | portfolio.update_mark_to_market(market_data.get("price", {}))
+2026-06-07 07:43:42,124 | INFO | File "/home/ec2-user/trading_bot/portfolio/portfolio_engine.py", line 62, in update_mark_to_market
+2026-06-07 07:43:42,124 | INFO | if qty > 0:
+2026-06-07 07:43:42,124 | INFO | TypeError
+2026-06-07 07:43:42,124 | INFO | :
+2026-06-07 07:43:42,124 | INFO | '>' not supported between instances of 'dict' and 'int'
+2026-06-07 07:43:42,124 | INFO | During handling of the above exception, another exception occurred:
+2026-06-07 07:43:42,124 | INFO | Traceback (most recent call last):
+2026-06-07 07:43:42,124 | INFO | File "/home/ec2-user/trading_bot/main.py", line 93, in <module>
+2026-06-07 07:43:42,125 | INFO | main()
+2026-06-07 07:43:42,125 | INFO | File "/home/ec2-user/trading_bot/main.py", line 90, in main
+2026-06-07 07:43:42,125 | INFO | time.sleep(5)
+2026-06-07 07:43:42,125 | INFO | KeyboardInterrupt
+2026-06-07 07:43:42,846 | INFO | 🚀 [OpenClaw Stable Engine] 安全闭环引擎启动...
+2026-06-07 07:43:42,846 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-07 07:43:42,852 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-07 07:43:42,852 | INFO | ================================================================
+2026-06-07 07:43:42,858 | INFO | 📊 盘前账本同步成功 | 余额: 10000.00 | 净值: 10000.00
+2026-06-07 07:43:48,705 | INFO | ⚠️ 键盘中断，退出...
+2026-06-07 07:45:22,122 | INFO | 🚀 [OpenClaw Stable Engine] 安全闭环引擎启动...
+2026-06-07 07:45:22,122 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-07 07:45:22,128 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-07 07:45:22,128 | INFO | ================================================================
+2026-06-07 07:45:22,134 | INFO | 📊 盘前账本同步成功 | 余额: 10000.00 | 净值: 10000.00
+2026-06-07 07:46:01,096 | INFO | ⚠️ 键盘中断，退出...
+2026-06-07 07:48:58,928 | INFO | 🚀 [OpenClaw Stable Engine] 安全闭环引擎启动...
+2026-06-07 07:48:58,929 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-07 07:48:58,934 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-07 07:48:58,935 | INFO | ================================================================
+2026-06-07 07:48:58,941 | INFO | 📊 盘前账本同步成功 | 余额: 10000.00 | 净值: 10000.00
+2026-06-07 07:49:29,228 | INFO | ⚠️ 键盘中断，退出...
+2026-06-07 07:50:57,710 | INFO | 🚀 [OpenClaw Stable Engine] 安全闭环引擎启动...
+2026-06-07 07:50:57,710 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-07 07:50:57,716 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-07 07:50:57,716 | INFO | ================================================================
+2026-06-07 07:50:57,722 | INFO | 📊 盘前账本同步成功 | 余额: 10000.00 | 净值: 10000.00
+2026-06-07 07:51:39,736 | INFO | ⚠️ 键盘中断，退出...
+2026-06-07 07:52:47,589 | INFO | 🚀 [OpenClaw Stable Engine] 安全闭环引擎启动...
+2026-06-07 07:52:47,590 | INFO | =================== Gate.io Real Broker V2 ===================
+2026-06-07 07:52:47,596 | INFO | ▶ [Real Broker] Gate.io 实体交易所物理长连接完全通电！ ✅
+2026-06-07 07:52:47,596 | INFO | ================================================================
+2026-06-07 07:52:47,602 | INFO | 📊 盘前账本同步成功 | 余额: 10000.00 | 净值: 10000.00
+2026-06-07 07:53:40,914 | INFO | ⚠️ 键盘中断，退出...

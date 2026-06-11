@@ -1,0 +1,12 @@
+{
+  "cash": 9688.297299999998,
+  "positions": {
+    "BTC/USDT": 0.005
+  },
+  "avg_price": {
+    "BTC/USDT": 62340.54
+  },
+  "realized_pnl": 0.0,
+  "unrealized_pnl": -4.852200000000011,
+  "equity": 9995.147799999999
+}
