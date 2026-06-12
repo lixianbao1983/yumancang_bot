@@ -1,5 +1,3 @@
-# ~/trading_bot/updater.py
-
 import os
 import subprocess
 import time
@@ -8,7 +6,7 @@ from datetime import datetime
 
 class AutoUpdater:
     """
-    安全自动升级系统（Git版本）
+    安全自动升级系统（Git + start.sh 统一入口）
     """
 
     def __init__(self, repo_path="~/trading_bot"):
@@ -39,17 +37,24 @@ class AutoUpdater:
         )
 
         print(result.stdout)
+
         if result.returncode != 0:
-            print("[UPDATER] pull failed!")
+            print("[UPDATER] git pull failed!")
             return False
 
         return True
 
     def restart(self):
-        print("[UPDATER] restarting bot...")
-        os.system("pkill -f execution_engine.py")
+        print("[UPDATER] restarting bot via start.sh...")
+
+        os.chdir(self.repo_path)
+
+        # 停掉旧进程
+        os.system("pkill -f main.py")
         time.sleep(1)
-        os.system("nohup python3 execution_engine.py > logs/run.log 2>&1 &")
+
+        # 用统一入口启动
+        os.system("nohup ./start.sh > logs/run.log 2>&1 &")
 
     def run(self):
         old_version = self.get_current_version()
