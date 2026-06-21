@@ -1,0 +1,181 @@
+import time
+import hmac
+import hashlib
+import json
+import requests
+
+
+class GateFuturesClient:
+
+
+    def __init__(self, api_key, api_secret):
+
+        self.api_key = api_key.strip()
+        self.api_secret = api_secret.strip()
+
+        self.base_url = "https://api.gateio.ws"
+
+
+
+    def _sign(
+        self,
+        method,
+        url,
+        query="",
+        body=""
+    ):
+
+        timestamp=str(int(time.time()))
+
+        body_hash=hashlib.sha512(
+            body.encode()
+        ).hexdigest()
+
+
+        payload="\n".join([
+            method,
+            url,
+            query,
+            body_hash,
+            timestamp
+        ])
+
+
+        sign=hmac.new(
+            self.api_secret.encode(),
+            payload.encode(),
+            hashlib.sha512
+        ).hexdigest()
+
+
+        return timestamp,sign
+
+
+
+    def _headers(
+        self,
+        timestamp,
+        sign
+    ):
+
+        return {
+
+            "KEY":self.api_key,
+
+            "Timestamp":timestamp,
+
+            "SIGN":sign,
+
+            "Content-Type":"application/json"
+
+        }
+
+
+
+    def place_order(
+        self,
+        contract,
+        size,
+        price=0,
+        reduce_only=False
+    ):
+
+
+        url="/api/v4/futures/usdt/orders"
+
+
+
+        body={
+
+
+            "contract":contract,
+
+
+            "size":size,
+
+
+            "price":str(price),
+
+
+            "tif":"ioc",
+
+
+            "reduce_only":reduce_only,
+
+
+            "text":"t-bot",
+
+
+            "settle":"usdt",
+
+
+            "close":False,
+
+
+            # 关键修改
+            "auto_size":False,
+
+
+            # Gate双向持仓
+            "iceberg":0
+
+
+        }
+
+
+
+        body_str=json.dumps(
+            body,
+            separators=(",",":")
+        )
+
+
+
+        timestamp,sign=self._sign(
+            "POST",
+            url,
+            "",
+            body_str
+        )
+
+
+
+        r=requests.post(
+
+            self.base_url+url,
+
+            headers=self._headers(
+                timestamp,
+                sign
+            ),
+
+            data=body_str,
+
+            timeout=10
+
+        )
+
+
+
+        print("="*40)
+
+        print("HTTP STATUS")
+
+        print(r.status_code)
+
+
+        print("="*40)
+
+        print("REQUEST BODY")
+
+        print(body_str)
+
+
+        print("="*40)
+
+        print("RESPONSE")
+
+        print(r.text)
+
+
+        return r.json()

@@ -1,0 +1,71 @@
+class GateExecutor:
+
+    def __init__(self, client, dry_run=False):
+        self.client = client
+        self.dry_run = dry_run
+
+
+    def execute(self, signal):
+        return self.execute_signal(signal)
+
+
+    def execute_signal(self, signal):
+
+        print(
+            f"⚡ [GateExecutor] 收到 AI 原始信号: {signal}"
+        )
+
+        qty = float(signal["qty"])
+
+        size = int(qty)
+
+        if size < 1:
+            size = 1
+
+
+        if signal["action"].upper() == "SELL":
+            size = -size
+
+
+        order_payload = {
+
+            "contract": signal["symbol"],
+
+            "size": size,
+
+            "price": "0",
+
+            "tif": "ioc",
+
+            "text": "t-bot",
+
+            "settle": "usdt",
+
+            # Gate futures 必填字段
+            "reduce_only": False,
+
+            "close": False,
+
+            "iceberg": 0
+
+        }
+
+
+        print(
+            "📦 下单参数:",
+            order_payload
+        )
+
+
+        result = self.client.place_order(
+            order_payload
+        )
+
+
+        print(
+            "📡 Gate返回:",
+            result
+        )
+
+
+        return result

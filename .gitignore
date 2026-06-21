@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+logs/
+nohup.out
+.env
+.encd
+
+# 临时文件
+*.bak
+*.save
+*.old

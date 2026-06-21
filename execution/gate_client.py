@@ -1,86 +1,192 @@
+import os
 import time
+import json
 import hmac
 import hashlib
 import requests
+from urllib.parse import urlencode
+
 
 
 class GateClient:
-    def __init__(self, api_key, api_secret):
-        self.api_key = api_key
-        self.api_secret = api_secret
-        self.base_url = "https://api.gateio.ws"
 
-    # ======================
-    # 签名
-    # ======================
-    def _sign(self, method, url, query_string="", body=""):
+
+    def __init__(self, key, secret):
+
+        self.key = key
+        self.secret = secret
+
+        self.host = "https://api.gateio.ws"
+
+
+
+    def _sign(
+        self,
+        method,
+        path,
+        query="",
+        body=""
+    ):
+
         t = str(int(time.time()))
 
-        body_hash = hashlib.sha512(body.encode()).hexdigest()
-        payload = f"{method}\n{url}\n{query_string}\n{body_hash}\n{t}"
+
+        hashed_body = hashlib.sha512(
+            body.encode()
+        ).hexdigest()
+
+
+
+        sign_string = "\n".join(
+            [
+                method.upper(),
+                path,
+                query,
+                hashed_body,
+                t
+            ]
+        )
+
 
         sign = hmac.new(
-            self.api_secret.encode(),
-            payload.encode(),
+            self.secret.encode(),
+            sign_string.encode(),
             hashlib.sha512
         ).hexdigest()
 
+
         return t, sign
 
-    def _headers(self, t, sign):
-        return {
-            "KEY": self.api_key,
+
+
+    def request(
+        self,
+        method,
+        path,
+        params=None,
+        body=None
+    ):
+
+
+        if params:
+
+            query = urlencode(params)
+
+        else:
+
+            query = ""
+
+
+
+        if body:
+
+            body_str = json.dumps(
+                body,
+                separators=(",",":")
+            )
+
+        else:
+
+            body_str = ""
+
+
+
+        t, sign = self._sign(
+            method,
+            path,
+            query,
+            body_str
+        )
+
+
+
+        headers = {
+
+            "KEY": self.key,
+
             "Timestamp": t,
+
             "SIGN": sign,
-            "Content-Type": "application/json"
+
+            "Content-Type":
+            "application/json"
+
         }
 
-    # ======================
-    # 行情
-    # ======================
-    def get_ticker(self, symbol):
-        url = f"/api/v4/spot/tickers?currency_pair={symbol}"
-        r = requests.get(self.base_url + url)
-        return r.json()
 
-    # ======================
-    # 账户
-    # ======================
-    def get_balances(self):
-        url = "/api/v4/spot/accounts"
 
-        t, sign = self._sign("GET", url)
-
-        r = requests.get(
-            self.base_url + url,
-            headers=self._headers(t, sign)
+        url = (
+            self.host
+            +
+            path
         )
 
-        return r.json()
 
-    # ======================
-    # 下单
-    # ======================
-    def place_order(self, symbol, side, amount, price=None):
-        import json
 
-        url = "/api/v4/spot/orders"
+        print("========== GATE REQUEST ==========")
+        print(method, path)
+        print("QUERY:", query)
+        print("BODY:", body_str)
+        print("==================================")
 
-        body = {
-            "currency_pair": symbol,
-            "type": "market",
-            "side": side.lower(),
-            "amount": str(amount)
-        }
 
-        body_str = json.dumps(body)
 
-        t, sign = self._sign("POST", url, "", body_str)
+        r = requests.request(
 
-        r = requests.post(
-            self.base_url + url,
-            headers=self._headers(t, sign),
-            data=body_str
+            method,
+
+            url,
+
+            headers=headers,
+
+            params=params,
+
+            data=body_str,
+
+            timeout=10
+
         )
 
-        return r.json()
+
+        try:
+
+            return r.json()
+
+
+        except:
+
+            return {
+
+                "status":r.status_code,
+
+                "text":r.text
+
+            }
+
+
+
+
+    def place_order(
+        self,
+        order
+    ):
+
+
+        # dual_plus账户需要明确仓位模式
+
+        order["auto_size"] = (
+            "open_long"
+            if order["size"] > 0
+            else "open_short"
+        )
+
+
+        return self.request(
+
+            "POST",
+
+            "/api/v4/futures/usdt/orders",
+
+            body=order
+
+        )

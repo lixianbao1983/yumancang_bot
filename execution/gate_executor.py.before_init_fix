@@ -1,0 +1,90 @@
+from execution.gate_futures_client import GateFuturesClient
+
+
+class GateExecutor:
+
+    def __init__(self, api_key, api_secret):
+
+        self.client = GateFuturesClient(
+            api_key,
+            api_secret
+        )
+
+
+    def execute(self, signal):
+
+        print(
+            "⚡ [GateExecutor] 收到 AI 原始信号:",
+            signal
+        )
+
+
+        action = signal["action"]
+
+        qty = signal.get(
+            "qty",
+            0.001
+        )
+
+
+        # Gate BTC_USDT 合约单位
+        size = 1
+
+
+        # 双向持仓模式
+        # BUY -> dual_long
+        # SELL -> dual_short
+
+        if action.upper() == "BUY":
+
+            mode = "dual_long"
+
+        else:
+
+            mode = "dual_short"
+
+
+
+        order_payload = {
+
+            "contract": signal["symbol"],
+
+            "size": size,
+
+            "price": "0",
+
+            "tif": "ioc",
+
+            "text": "t-bot",
+
+            "settle": "usdt",
+
+            "reduce_only": False,
+
+            "close": False,
+
+            "iceberg": 0,
+
+            "mode": mode
+
+        }
+
+
+        print(
+            "📦 下单参数:",
+            order_payload
+        )
+
+
+        result = self.client.place_order(
+            order_payload
+        )
+
+
+        print(
+            "📡 Gate返回:",
+            result
+        )
+
+
+        return result
